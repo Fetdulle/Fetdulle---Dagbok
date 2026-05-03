@@ -296,13 +296,13 @@ canvas{width:100%!important;display:block;}
     <div>
       <div class="block-title">Mat & Nutrition</div>
 
-      <!-- LUNCH -->
+      <!-- SALLAD -->
       <div class="meal">
-        <button class="meal-btn" onclick="openPopup('lunch')">Sallad &amp; Kebabwrap</button>
-        <button class="accordion-btn" onclick="toggleAcc('acc-lunch',this)">
-          <span class="arr">▸</span> Visa ingredienser · 785 kcal
+        <button class="meal-btn">Sallad</button>
+        <button class="accordion-btn" onclick="toggleAcc('acc-sallad',this)">
+          <span class="arr">▸</span> Visa ingredienser · 188 kcal
         </button>
-        <div class="accordion-body" id="acc-lunch">
+        <div class="accordion-body" id="acc-sallad">
           <table>
             <thead><tr>
               <th>Ingrediens</th><th>Kcal</th><th>Protein</th><th>Kolhydr.</th><th>Fett</th>
@@ -311,11 +311,29 @@ canvas{width:100%!important;display:block;}
               <tr><td class="acc-food">Gurka 400g</td><td class="acc-kcal">52</td><td class="acc-pro">2g</td><td class="acc-carb">8g</td><td class="acc-empty">—</td></tr>
               <tr><td class="acc-food">Plommontomater 100g</td><td class="acc-kcal">18</td><td class="acc-pro">1g</td><td class="acc-carb">3g</td><td class="acc-empty">—</td></tr>
               <tr><td class="acc-food">Grekisk yoghurt 0% 200g</td><td class="acc-kcal">118</td><td class="acc-pro">20g</td><td class="acc-carb">8g</td><td class="acc-empty">—</td></tr>
+              <tr class="acc-total-row"><td class="acc-food">Totalt</td><td class="acc-kcal">188</td><td class="acc-pro">23g</td><td class="acc-carb">19g</td><td class="acc-fat">—</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- KEBABWRAP -->
+      <div class="meal">
+        <button class="meal-btn">Kebabwrap</button>
+        <button class="accordion-btn" onclick="toggleAcc('acc-wrap',this)">
+          <span class="arr">▸</span> Visa ingredienser · 597 kcal
+        </button>
+        <div class="accordion-body" id="acc-wrap">
+          <table>
+            <thead><tr>
+              <th>Ingrediens</th><th>Kcal</th><th>Protein</th><th>Kolhydr.</th><th>Fett</th>
+            </tr></thead>
+            <tbody>
               <tr><td class="acc-food">Görans döner kebab 180g</td><td class="acc-kcal">342</td><td class="acc-pro">27g</td><td class="acc-carb">4g</td><td class="acc-fat">18g</td></tr>
               <tr><td class="acc-food">Santa Maria tortilla Large</td><td class="acc-kcal">187</td><td class="acc-pro">5g</td><td class="acc-carb">34g</td><td class="acc-fat">3g</td></tr>
               <tr><td class="acc-food">Gurka 50g</td><td class="acc-kcal">7</td><td class="acc-empty">—</td><td class="acc-carb">1g</td><td class="acc-empty">—</td></tr>
               <tr><td class="acc-food">Turkisk yoghurt 10% 50g</td><td class="acc-kcal">61</td><td class="acc-pro">3g</td><td class="acc-carb">2g</td><td class="acc-fat">5g</td></tr>
-              <tr class="acc-total-row"><td class="acc-food">Totalt</td><td class="acc-kcal">785</td><td class="acc-pro">58g</td><td class="acc-carb">60g</td><td class="acc-fat">26g</td></tr>
+              <tr class="acc-total-row"><td class="acc-food">Totalt</td><td class="acc-kcal">597</td><td class="acc-pro">35g</td><td class="acc-carb">41g</td><td class="acc-fat">26g</td></tr>
             </tbody>
           </table>
         </div>
